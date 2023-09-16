@@ -23,9 +23,9 @@ function multiply(num1, num2) {  // Fonction accessible dans la console
     return result;
   }
 
-document.querySelector("img").addEventListener("mousedown", function () {   // Quand on clique sur l'image  (html pour la page)
+/*document.querySelector("img").addEventListener("mousedown", function () {   // Quand on clique sur l'image  (html pour la page)
     alert("Tout droits protégés !!");
-  });
+  });*/
 
 let myli = document.querySelector("li");
 myli.addEventListener("click", function () {   // Quand on clique sur le texte avec la balise "li"
